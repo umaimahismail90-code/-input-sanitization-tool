@@ -1,12 +1,11 @@
-# Robust Input Data Cleaner
+## 🧹 Robust Input Data Cleaner
 
-A lightweight Python command-line utility designed to accept dynamic user input, handle exceptions gracefully, and output a clean dataset of positive integers.
+A lightweight Python command-line utility designed to accept continuous user input, handle exceptions gracefully, and output a clean, filtered dataset of positive integers.
 
-## Features
+### Features
 * **Active Exception Handling:** Uses `try-except` blocks to prevent crashes when processing non-numeric data types (like letters or symbols).
-* **Dynamic User Input:** Employs `input().split()` to capture and parse live user data on the fly.
-* **Data Transformation:** Converts raw string inputs into clean integer lists.
+* **Interactive CLI Loop:** Employs a `while` loop that allows for continuous data processing until the user chooses to exit.
+* **Data Transformation:** Safely converts raw, space-separated string inputs into structured lists of positive integers.
 
-## How It Works
-The program prompts the user for a list of values separated by spaces. It iterates through the input, safely attempts to cast each item to an integer, filters out any negative numbers, and skips invalid strings entirely without raising a fatal error.
-
+### How It Works
+The program runs in a continuous loop, prompting the user for input until they type `'done'`. It iterates through the provided values, safely attempts to cast each item to an integer, filters out any negative numbers, and skips invalid inputs entirely without crashing the application.
