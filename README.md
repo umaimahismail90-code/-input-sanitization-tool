@@ -10,6 +10,3 @@ A lightweight Python command-line utility designed to accept dynamic user input,
 ## How It Works
 The program prompts the user for a list of values separated by spaces. It iterates through the input, safely attempts to cast each item to an integer, filters out any negative numbers, and skips invalid strings entirely without raising a fatal error.
 
-## Code Preview
-```python
-# Insert your data_cleaner code here!
